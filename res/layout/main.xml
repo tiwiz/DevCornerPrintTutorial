@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/wvCustomCode" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Immagine"
+            android:id="@+id/btnPrintImage"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_alignLeft="@+id/wvCustomCode" android:layout_alignParentBottom="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="HTML"
+            android:id="@+id/btnPrintHtml" android:layout_alignRight="@+id/wvCustomCode"
+            android:layout_alignTop="@+id/btnPrintImage"/>
+</RelativeLayout>
